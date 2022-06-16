@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PIANO</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+	
+</head>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;	
+	background: #e4e7e7;
+}
+
+/* * ============================== */
+/* * ============ HEADER ========== */
+/* * ============================== */
+
+.navbar {
+	background: #2d87db;
+}
+
+.navbar a {
+	color: rgb(135, 178, 207);
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: #71b9f0;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 10000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+/* * ============================== */
+/* * ============ MAIN ============ */
+/* * ============================== */
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido p {
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: #6a6b6e;
+}
+
+main .contenido .titulo {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-top: 40px;
+}
+
+main .contenido .fecha {
+	font-size: 14px;
+	color: #B5B5B5;
+}
+
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 10vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
+hr {
+    border-style: none;
+    height: 2px;
+    width: 20%;
+    background-color:  #e4e7e7;
+}
+button{
+        width: 80px;
+        color: #000;
+        font-size: 12px;
+        padding: 12px 0;
+        background: #fff;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        margin-top:30px ;
+    }
+
+
+
+</style>
+<body>
+	<header>
+		<nav class="navbar">
+			<div class="contenedor">
+				<a href="#">Inicio</a>
+				<a href="nosotros.html">Nosotros</a>
+				<a href="#">Blog</a>
+				<a href="#">Contacto</a>
+			</div>
+		</nav>
+		
+	</header>
+   
+	<main id="blog">
+		<div class="contenedor">
+	<img  src="imagenes/logo.jpeg" alt="" width="300px" height="300px" ><hr>
+            
+			<div class="contenido">
+				<div class="post">
+					<h1 class="titulo1">INSTRUMENTO PIANO</h1>
+					<p class="fecha">Publicado el de 15 DE JUNIO DE 2021</p>
+					
+    <p>El piano (abreviación de «pianoforte», palabra que en italiano está compuesta por los términos «piano», «suave», y «forte», «fuerte»)
+        es un instrumento musical armónico clasificado como instrumento de cuerda percutida por el sistema de clasificación tradicional, y 
+        según la clasificación de Hornbostel-Sachs es un cordófono simple. El músico que toca el piano se llama pianista.<br>
+    
+        <br>Está compuesto por una caja de resonancia a la que se ha agregado un teclado mediante el cual se percuten las cuerdas de
+         acero con martillos forrados de fieltro, produciendo el sonido, Las vibraciones se transmiten a través de los puentes a la tabla 
+         armónica, que las amplifica. Está formado por un arpa cromática de cuerdas múltiples, accionada por un mecanismo de percusión indirecta, 
+         a la que se le han añadido apagadores. Fue inventado en torno al año 1700 por el paduano Bartolomeo Cristofori. Entre sus antecesores se
+        encuentran instrumentos como la cítara, el monocordio, el dulcémele, el clavicordio y el clavecín (del que deriva la forma, pero no la mecánica).<br>
+    
+       <br>En la música occidental, el piano se puede utilizar para la interpretación solista, para la música de cámara, para el acompañamiento, para ayudar
+        a componer y para ensayar. Las primeras composiciones específicas para este instrumento surgieron alrededor del año 1732; entre ellas destacan las doce 
+        sonatas para piano de Lodovico Giustini tituladas Sonate da cimbalo di piano e forte detto volgarmente di martelletti. Desde entonces, muchos han sido los
+         compositores que han realizado obras para piano y en muchos casos esos mismos compositores han sido pianistas. Destacan figuras como Frédéric Chopin, 
+         Franz Liszt, Wolfgang Amadeus Mozart, Ludwig van Beethoven, Claude Debussy o Piotr Ilich Chaikovski. Fue el instrumento representativo del romanticismo musical
+        y ha tenido un papel relevante en la sociedad, especialmente entre las clases más acomodadas de los siglos xviii y xix. <br></p>
+				</div>
+				
+				<a href="principal.html" ><button>Regresar</button></a>
+			</div>
+		</div>
+	</main>
+
+</body>
+</html

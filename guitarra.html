@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GUITARRA</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+	
+</head>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;	
+	background: #e4e7e7;
+}
+
+/* * ============================== */
+/* * ============ HEADER ========== */
+/* * ============================== */
+
+.navbar {
+	background: #2d87db;
+}
+
+.navbar a {
+	color: rgb(135, 178, 207);
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: #71b9f0;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 10000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+/* * ============================== */
+/* * ============ MAIN ============ */
+/* * ============================== */
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido p {
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: #6a6b6e;
+}
+
+main .contenido .titulo {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-top: 40px;
+}
+
+main .contenido .fecha {
+	font-size: 14px;
+	color: #B5B5B5;
+}
+
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 10vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
+hr {
+    border-style: none;
+    height: 2px;
+    width: 20%;
+    background-color:  #e4e7e7;
+}
+button{
+        width: 80px;
+        color: #000;
+        font-size: 12px;
+        padding: 12px 0;
+        background: #fff;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        margin-top:30px ;
+    }
+
+
+
+</style>
+<body>
+	<header>
+		<nav class="navbar">
+			<div class="contenedor">
+				<a href="#">Inicio</a>
+				<a href="nosotros.html">Nosotros</a>
+				<a href="#">Blog</a>
+				<a href="#">Contacto</a>
+			</div>
+		</nav>
+		
+	</header>
+   
+	<main id="blog">
+		<div class="contenedor">
+	<img  src="imagenes/logo.jpeg" alt="" width="300px" height="300px" ><hr>
+            
+			<div class="contenido">
+				<div class="post">
+					<h1 class="titulo1">INSTRUMENTO GUITARRA</h1>
+					<p class="fecha">Publicado el de 15 DE JUNIO DE 2021</p>
+					
+    <p>La guitarra es un instrumento musical de la familia de los cordófonos, es decir los instrumentos que producen su sonido al
+        hacer vibrar las cuerdas. Es un instrumento de cuerda pulsada, compuesto de una caja de resonancia, un mástil sobre el que
+        va adosado el diapasón o trastero —generalmente con un agujero acústico en el centro de la tapa (boca)— y seis cuerdas.
+        Sobre el diapasón van incrustados los trastes, que permiten dividir el continuo de sonidos en las 12 notas del sistema tonal,
+        haciendo posible la interpretación de las mismas con mayor facilidad.<br>
+    
+        <br>La guitarra es el fruto de siglos de evolución de estos cordófonos. Los orígenes del instrumento proceden de civilizaciones de
+        Asia menor (sumerios, acadios, asirios...) de. 2.500 A.C. Desde entonces los cordófonos se han desarrollado de muy diversas
+        maneras a lo largo del tiempo con diferentes números de cuerdas y formas. Algunos instrumentos de la familia son el cuatro, el
+        ukelele, el requinto, el charango y distintos tipos de guitarrón, como el guitarrón mexicano, de uso frecuente por los mariachis.<br>
+    
+       <br> La guitarra tal y como la conocemos hoy es la heredera del instrumento que ideó Antonio de Torres, constructor almeriense que 
+        sentó los cánones y proporciones actuales.La guitarra es hoy un instrumento polifacético que se usa tanto en la música 
+        clásica como en las músicas populares. En su versión electrificada es el instrumento más utilizado en géneros como blues, rock
+        y heavy metal. También es la protagonista en las músicas populares de raíces de España y Latinoamérica. Cabe destacar la
+        importancia que la guitarra tiene en el flamenco, género musical que nace en España durante el siglo XVIII. En la actualidad los
+        guitarristas flamencos suelen usar una guitarra con ligeras variaciones en la construcción, conocida como guitarra de
+        flamenco. La guitarra clásica es también bastante frecuente entre los cantautores.<br></p>
+				</div>
+				<div class="post">
+					<h2 class="titulo">PARTES DE UNA GUITARRA</h2>
+					<p class="fecha">PUBLICADO EL 14 DE JUNIO DE 2021</p>
+                    <p>La guitarra ha sufrido variaciones en su forma a lo largo de los siglos. Además del número de cuerdas, las variaciones del instrumento han
+                        surgido para adaptarlo a las necesidades del intérprete hasta adoptar la forma actual. Este instrumento está fabricado con madera
+                        prácticamente en su totalidad. Hoy en día se utilizan muy diversos tipos, aunque comúnmente los más empleados son principalmente la
+                        madera de palisandro de la India y otros: abeto, caoba, cedro de Canadá, pino, ciprés (muy popular entre las guitarras que se utilizan entre 
+                        los guitarristas flamencos) y ébano. Hoy en día los constructores diferencian entre la construcción de un instrumento clásico o flamenco.
+                        Esto se debe a la evolución histórica que han tenido estos dos instrumentos en relación no solo a la cuestión sonora, sino también al origen
+                        social de sus ejecutantes. El ciprés era una madera abundante y más accesible en el siglo xix que el jacarandá, lo cual influía en el precio
+                        final del instrumento haciéndolo más accesible para los ejecutante de origen rural y humilde que se dedicaban al flamenco. Por otra parte, el
+                        sonido percusivo y con gran ataque resultaba suficiente y apropiado para acompañar el cante en los bulliciosos cafés madrileños donde el
+                        flamenco comenzó a expandirse. Lo cierto es que, conforme la guitarra flamenca comenzó a asumir un papel protagónico como instrumento
+                        solista, se fue acercando a la guitarra clásica, en la búsqueda de un sonido con más cuerpo y utilizando otras maderas además del ciprés
+                        (guitarras flamencas negras), aunque han conservado determinadas características estéticas como las clavijas de madera, y mecánicas
+                        como la acción baja de las cuerdas.
+                    </p>
+            
+				</div>
+				<div class="post">
+					<h1 class="titulo">HISTORIA</h1>
+					<p class="fecha">PUBLICADO EL 14 DE JUNIO DE 2021</p>
+					<p>Los orígenes y evolución de la guitarra y su familia no están demasiado claros, ya que numerosos instrumentos similares eran utilizados en
+            la antigüedad, por lo que es usual seguir la trayectoria de este instrumento a través de las representaciones pictóricas y escultóricas
+            encontradas a lo largo de la historia. Existen evidencias arqueológicas en bajorrelieves encontrados en Alaça Hüyük (norte de la actual
+            Turquía) de que en torno al año 1000 a. C. los hititas y asirios crearon instrumentos de cuerda parecidos a la lira (el instrumento de varias
+            cuerdas más sencillo y antiguo del mundo) pero con el agregado de una caja de resonancia, por lo que serían antecesores de la guitarra.
+            También se han encontrado representaciones en dibujos del antiguo Egipto que se asemejan a la guitarra. <br>
+        
+            <br>Existen varias hipótesis acerca de sus orígenes. Una de ellas le da un origen grecolatino y afirma que es un descendiente de la fidícula. Otra
+            de las más populares considera que la guitarra es un instrumento introducido por los árabes durante la conquista musulmana de la
+            península ibérica y que posteriormente evolucionó en España. <br>
+        
+            <br>Ambas hipótesis tienen su razón etimológica. Al parecer los primeros cordófonos llegaron hasta los griegos, que deformaron ligeramente su
+            nombre, kithára o kettarah. Según Corominas, la acentuación revela el origen de la palabra en el griego kithára. La palabra cíthara que
+            derivaría después en cítara y finalmente cedra en castellano parece que sería utilizada para el instrumento sin mango (más parecido a la
+            lira), mientras que se supone que el vocablo griego se habría utilizado para el instrumento al que se le habría añadido un mango al
+            comienzo de nuestra era. Muchos estudiosos y musicólogos atribuyen la llegada de la guitarra a España por medio del Imperio romano en el<br>
+            año 400.</p>
+				</div>
+				<a href="principal.html" ><button>Regresar</button></a>
+			</div>
+		</div>
+	</main>
+
+</body>
+</html

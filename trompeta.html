@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TROMPETA</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+	
+</head>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;	
+	background: #e4e7e7;
+}
+
+/* * ============================== */
+/* * ============ HEADER ========== */
+/* * ============================== */
+
+.navbar {
+	background: #2d87db;
+}
+
+.navbar a {
+	color: rgb(135, 178, 207);
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: #71b9f0;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 10000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+/* * ============================== */
+/* * ============ MAIN ============ */
+/* * ============================== */
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido p {
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: #6a6b6e;
+}
+
+main .contenido .titulo {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-top: 40px;
+}
+
+main .contenido .fecha {
+	font-size: 14px;
+	color: #B5B5B5;
+}
+
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 10vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
+hr {
+    border-style: none;
+    height: 2px;
+    width: 20%;
+    background-color:  #e4e7e7;
+}
+button{
+        width: 80px;
+        color: #000;
+        font-size: 12px;
+        padding: 12px 0;
+        background: #fff;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        margin-top:30px ;
+    }
+
+
+
+</style>
+<body>
+	<header>
+		<nav class="navbar">
+			<div class="contenedor">
+				<a href="#">Inicio</a>
+				<a href="nosotros.html">Nosotros</a>
+				<a href="#">Blog</a>
+				<a href="#">Contacto</a>
+			</div>
+		</nav>
+		
+	</header>
+   
+	<main id="blog">
+		<div class="contenedor">
+	<img  src="imagenes/logo.jpeg" alt="" width="300px" height="300px" ><hr>
+            
+			<div class="contenido">
+				<div class="post">
+					<h1 class="titulo1">INSTRUMENTO TROMPETA</h1>
+					<p class="fecha">Publicado el de 15 DE JUNIO DE 2021</p>
+					
+    <p>La trompeta es un instrumento musical de viento, que pertenece a la familia de los instrumentos de viento metal o metales, 
+        fabricado en aleación de metal. El sonido se produce gracias a la vibración de los labios del intérprete en la parte denominada
+        boquilla a partir de la columna del aire (flujo del aire). Comúnmente, suele estar afinada en si ♭ (bemol), es decir, un tono por 
+        debajo de la afinación escrita en el pentagrama, aunque también hay trompetas afinadas en fa, en do, en la y en mi, - bemol -<br>
+    
+        <br>La trompeta está construida con un tubo, de latón generalmente, doblado en espiral de aproximadamente 180 cm de largo, con diversas 
+        válvulas o pistones, que termina en una boca acampanada que recibe el nombre de campana o pabellón. Los dos primeros tercios del tubo son
+         prácticamente cilíndricos, lo que le proporciona un sonido fuerte y brillante, al contrario de lo que ocurre con la corneta y el fliscorno, 
+        que poseen un tubo cónico y producen un tono más suave. El otro tercio restante es un tubo cónico, excepto en los últimos 30 cm, en los que el 
+        tubo se ensancha para formar la boca en forma de campana. El calibre es una serie compleja de vueltas, más pequeñas en el receptor de boquilla y
+         más grande justo antes del comienzo de la campana. El diseño cuidadoso de estas vueltas es crítico para la entonación de la trompeta<br>
+				</div>
+				<div class="post">
+					<h2 class="titulo">PARTES DE UNA TROMPETA</h2>
+					<p class="fecha">PUBLICADO EL 14 DE JUNIO DE 2021</p>
+                    <p>La trompeta promedio, sin pistones apretados (es decir: al aire) produce por lo general las notas do, mi y sol en todas sus octavas.
+                         No obstante, existen 4 excepciones: en la octava por debajo de la central, sol no se produce al aire, sino apretando el primero y el
+                        tercer pistón(pero normalmente se toca sin apretar ningún pistón). En la octava central, el mi no se produce al aire, sino apretando el
+                        primer y segundo pistón. En la segunda octava, existe un si ♭ al aire. En la tercera octava, existe re al aire. Estas irregularidades se 
+                        deben a los armónicos naturales
+                    </p>
+            
+				</div>
+				
+				<a href="principal.html" ><button>Regresar</button></a>
+			</div>
+		</div>
+	</main>
+
+</body>
+</html

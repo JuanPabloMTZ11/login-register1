@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SAXOFON</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+	
+</head>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;	
+	background: #e4e7e7;
+}
+
+/* * ============================== */
+/* * ============ HEADER ========== */
+/* * ============================== */
+
+.navbar {
+	background: #2d87db;
+}
+
+.navbar a {
+	color: rgb(135, 178, 207);
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: #71b9f0;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 10000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+/* * ============================== */
+/* * ============ MAIN ============ */
+/* * ============================== */
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido p {
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: #6a6b6e;
+}
+
+main .contenido .titulo {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-top: 40px;
+}
+
+main .contenido .fecha {
+	font-size: 14px;
+	color: #B5B5B5;
+}
+
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 10vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
+hr {
+    border-style: none;
+    height: 2px;
+    width: 20%;
+    background-color:  #e4e7e7;
+}
+button{
+        width: 80px;
+        color: #000;
+        font-size: 12px;
+        padding: 12px 0;
+        background: #fff;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        margin-top:30px ;
+    }
+
+
+
+</style>
+<body>
+	<header>
+		<nav class="navbar">
+			<div class="contenedor">
+				<a href="#">Inicio</a>
+				<a href="nosotros.html">Nosotros</a>
+				<a href="#">Blog</a>
+				<a href="#">Contacto</a>
+			</div>
+		</nav>
+		
+	</header>
+   
+	<main id="blog">
+		<div class="contenedor">
+	<img  src="imagenes/IMG_0988.JPG" alt="" width="400px" height="300px" ><hr>
+            
+			<div class="contenido">
+				<div class="post">
+					<h1 class="titulo1">INSTRUMENTO SAXOFON</h1>
+					<p class="fecha">Publicado el de 15 DE JUNIO DE 2021</p>
+					
+    <p>El saxofón, también conocido como saxófono o simplemente saxo, es un instrumento musical cónico, de la familia de los instrumentos 
+        de viento-madera, generalmente hecho de latón, que consta de una boquilla con una caña simple al igual que el clarinete. Fue inventado
+        por Adolphe Sax a principios de los años 1840. El saxofón se asocia comúnmente con la música popular, la música de big band y el jazz. 
+        A los intérpretes del instrumento se les llama saxofonistas o saxos, aunque esta última se emplea para denominar al propio instrumento de viento.
+        Pueden ser de ocho tamaños distintos en función de su afinación: sopranino en fa o mi bemol, soprano en do o si bemol, contralto o alto en fa o mi bemol,
+        tenor en do o si bemol, barítono en fa o mi bemol, bajo en do o si bemol, contrabajo y subcontrabajo en do o si bemol.<br>
+				</div>
+				<div class="post">
+					<h1 class="titulo">HISTORIA</h1>
+					<p class="fecha">PUBLICADO EL 14 DE JUNIO DE 2021</p>
+					<p>El saxofón fue creado a mitad de la década de 1840 por Adolphe Sax, e introducido en la música orquestal por Jules Massenet en sus óperas Manon y Werther.
+                        Adolphe Sax era un fabricante de instrumentos, flautista y clarinetista nacido en Dinant (Bélgica) que trabajaba en París. Mientras estaba trabajando
+                        en la tienda de instrumentos de su padre en Bruselas, Sax comenzó a desarrollar un instrumento que tenía la proyección de un instrumento de viento-metal
+                        con la movilidad de un instrumento de viento-madera. Otra prioridad era crear un instrumento que, aunque similar al clarinete, pero transitado una octava,
+                        a diferencia del clarinete, que eleva su altura doce tonos cuando transita. Un instrumento que transita una octava tendría idéntica digitación para ambos 
+                        registros. Esto también permite a los saxofonistas hacer un mejor uso de los sobretonos. <br>
+        
+            
+				</div>
+				<a href="principal.html" ><button>Regresar</button></a>
+			</div>
+		</div>
+	</main>
+
+</body>
+</html
